@@ -4,7 +4,7 @@ Phrase.configure do |config|
 
   # Fetch your project auth token after creating your first project 
   # in the PhraseApp translation center.
-  config.auth_token = "0b9139379e40e5d23cffc62373c4486c"
+  config.auth_token = "YOUR_PHRASE_AUTH_TOKEN"
 
   # Configure an array of key names that should not be handled 
   # with PhraseApp. This is useful when a key causes problems
