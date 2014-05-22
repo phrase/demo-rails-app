@@ -1,0 +1,19 @@
+/Users/matthias/.rvm/rubies/ruby-2.1.1/bin/ruby extconf.rb 
+checking for yaml.h... yes
+checking for yaml_get_version() in -lyaml... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.bundle
+ld: warning: directory not found for option '-L/Users/travis/.sm/pkg/active/lib'
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 psych.bundle ./.gem.20140521-33462-c308wp
+installing default psych libraries

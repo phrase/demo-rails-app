@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phrase Sample Application</title>
+  
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+
+  <%= phrase_javascript("0b9139379e40e5d23cffc62373c4486c") %>
+</head>
+<body>
+    <div id="all">
+        <div id="header">
+            <h1><span class="intro"><%= t('intro') %></span> <span class="branding">PhraseApp</span></h1>
+            <p class="sample"><%= t('sample') %></p>
+        </div>
+        <div id='welcome_phrase'>
+          <b>
+            <br />
+            <%= t('welcome_to_phrase_1') %>
+            <br /><br />
+            <%= t('welcome_to_phrase_2') %>
+            <br />
+          </b>
+        </div>
+        <div id="content">
+            <% if alerted = alert %>
+                <p id="alert"><%= alerted %></p>
+            <% end %>
+            <%= yield %>
+        </div>
+		<div id="foot">
+      <div class="logo">
+        <a href="http://www.phraseapp.com">PhraseApp</a>
+      </div>
+			<div class="copyright">
+			<p>
+			  Running on <a href="http://www.phraseapp.com">PhraseApp</a> and <a href="http://www.rubyonrails.org">Rails</a><br>
+			  Ruby is the Language of the Cloud.<br>
+			  Copyright © Phrase App, Inc. All rights reserved.
+			</p>
+			</div>
+		</div>
+    </div>
+</body>
+</html>

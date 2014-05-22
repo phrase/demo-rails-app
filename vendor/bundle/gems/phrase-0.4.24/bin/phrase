@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+if RUBY_VERSION < "1.9"
+  puts "Ruby Version #{RUBY_VERSION} is not supported. Please use >= 1.9."
+else
+  require 'phrase/tool'
+  Phrase::Tool.new(ARGV).run
+end

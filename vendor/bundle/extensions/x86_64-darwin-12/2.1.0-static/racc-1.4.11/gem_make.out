@@ -1,0 +1,14 @@
+/Users/matthias/.rvm/rubies/ruby-2.1.1/bin/ruby extconf.rb 
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: directory not found for option '-L/Users/travis/.sm/pkg/active/lib'
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cparse.bundle ./.gem.20140521-33462-1kinkv6/racc
+installing default cparse libraries
