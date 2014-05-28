@@ -4,10 +4,10 @@ h1,h2,h3,h4,h5,h6 {font-weight:normal; letter-spacing:-1px; margin:0; padding:0;
 ul, ol {margin:0; padding:0; list-style-position:inside;}
 h2 {font-size:20px;}
 
-#header {height:77px; background:#0d222e scroll repeat-x 0 0; position:relative; overflow:visible;}
-#header h1 {color:#FFF; position:absolute; left:40px; top:20px; font-size:24px;}
+#header {height:77px; background:#0d222e scroll repeat-x 0 0; position:center; overflow:visible;}
+#header h1 {color:#FFF; position:absolute; left:40px; top:20px; font-size:24px; margin-left: 60px;}
 #header h1 span.intro {display:block; font-weight:bold; margin-bottom:4px; font-size:22px;}
-#header h1 span.intro span {font-weight:normal; font-size:.65em}
+#header h1 span.intro span {font-weight:normal; font-size:.65em;}
 #header p.sample {color:white; margin:0; padding:0; position:absolute; top:30px; right:30px;}
 #content { background:#FFF scroll repeat-x 0 -5px; padding:50px 35px 0 35px;}
 #foot {padding:0 35px; color:#888; max-width:1200px;}
@@ -22,6 +22,7 @@ h2 {font-size:20px;}
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E0E0E0', endColorstr='#E0E0E0');
 }
 
+.hint {display:none;}
 #welcome_phrase {font-size:18px; background:#FFF scroll repeat-x 0 -5px; padding:50px 35px 0 35px;}
 
 #tabs div.split-fields div.field {float:left; width:80%; margin:0; padding:0; }

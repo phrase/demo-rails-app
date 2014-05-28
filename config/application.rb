@@ -43,5 +43,7 @@ module Listr
     config.assets.version = '1.0'
 
     config.assets.initialize_on_precompile = false
+    config.threadsafe!
+    config.dependency_loading = true if $rails_rake_task
   end
 end

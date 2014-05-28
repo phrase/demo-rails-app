@@ -43,9 +43,9 @@
 					<%= simple_form_for(task, :url => list_task_url(list, task)) do |f| %>
 
 			 		<li> 
-					    <%= f.input :done ,   :input_html => { :class => 'box'  } , :label => false  %>
+					    <%= f.input :done, :input_html => { :class => 'box'  } , :label => false %>
 					    <%= f.button :submit ,  :class => 'hidden'   %>
-					    <%= raw auto_link( h(task.name), :html => { :target => '_blank' }) %>
+					    <%= raw auto_link( h(t(task.name)), :html => { :target => '_blank' }, sanitize: false) %>
 					    <p class="delete-task">
 					        <%= link_to 'X', list_task_url(list, task), :confirm => 'Are you sure?', :method => :delete %>
 					    </p>
@@ -61,7 +61,7 @@
     		<ul class="tasks finished-tasks">
     		    <% list.done_tasks.each do |task| %>
         		<li class="finished">
-        		    <%= raw auto_link( h(task.name), :html => { :target => '_blank' }) %>
+        		    <%= raw auto_link( h(t(task.name)), :html => { :target => '_blank' }) %>
         		    <p class="delete-task">
     			        <%= link_to 'X', list_task_url(list, task), :confirm => 'Are you sure?', :method => :delete %>
     			    </p>
