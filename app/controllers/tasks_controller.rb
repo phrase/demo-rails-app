@@ -16,7 +16,7 @@ class TasksController < ApplicationController
   def create
     @list = List.find(params[:list_id])
     task_params = params[:task].is_a?(String) ? JSON.parse(params[:task]) : params[:task]
-    task_params[:name] = secure_user_input(task_params[:name])
+    task_params = secure_user_input(task_params)
     @task = @list.tasks.new(task_params)
     if @task.save
       status = "success"
@@ -38,9 +38,9 @@ class TasksController < ApplicationController
   def update
     @list = List.find(params[:list_id])
     @task = @list.tasks.find(params[:id])
-
+    task_params = secure_user_input(params[:task])
     respond_to do |format|
-      if @task.update_attributes(params[:task])
+      if @task.update_attributes(task_params)
         format.html { redirect_to( list_tasks_url(@list), :notice => 'Task was successfully updated.') }
       else
         format.html { render :action => "edit" }
@@ -59,7 +59,8 @@ class TasksController < ApplicationController
   end
 
   protected
-  def secure_user_input(name)
-    name.replace(CGI::escapeHTML(name))
+  def secure_user_input(task_params)
+    task_params[:name] = task_params[:name].replace(CGI::escapeHTML(task_params[:name]))
+    task_params
   end
 end
