@@ -16,6 +16,7 @@ class TasksController < ApplicationController
   def create
     @list = List.find(params[:list_id])
     task_params = params[:task].is_a?(String) ? JSON.parse(params[:task]) : params[:task]
+    task_params[:name] = secure_user_input(task_params[:name])
     @task = @list.tasks.new(task_params)
     if @task.save
       status = "success"
@@ -55,5 +56,10 @@ class TasksController < ApplicationController
     respond_to do |format|
       format.html { redirect_to(list_tasks_url(@list)) }
     end
+  end
+
+  protected
+  def secure_user_input(name)
+    name.replace(CGI::escapeHTML(name))
   end
 end
