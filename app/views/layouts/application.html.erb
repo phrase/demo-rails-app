@@ -7,7 +7,7 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 
-  <%= phrase_javascript("YOUR_PHRASE_AUTH_TOKEN") %>
+  <%= phrase_javascript(Phrase.config.auth_token) %>
 </head>
 <body>
     <div id="all">

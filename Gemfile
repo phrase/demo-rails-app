@@ -11,9 +11,8 @@ gem 'ey_config', '0.0.6'
 gem 'jquery-rails', '~> 3.0'
 gem 'rails_autolink', '~> 1.1'
 gem 'simple_form', '~> 2.1'
-gem 'phrase'
+gem 'phrase', '0.4.25'
 gem 'puma', '~> 2.6'
-
 
 group :assets do
   gem 'sass-rails', '~> 3.2'
