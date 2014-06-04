@@ -4,8 +4,15 @@ h1,h2,h3,h4,h5,h6 {font-weight:normal; letter-spacing:-1px; margin:0; padding:0;
 ul, ol {margin:0; padding:0; list-style-position:inside;}
 h2 {font-size:20px;}
 
-#header {height:77px; background:#0d222e scroll repeat-x 0 0; position:center; overflow:visible;}
-#header h1 {color:#FFF; position:absolute; left:40px; top:20px; font-size:24px; margin-left: 60px;}
+#header2 {height:30px; background:#f8f8f8 scroll repeat-x 0 0; position:center; overflow:visible;}
+#header2 h1 {color:#FFF; position:absolute; left:40px; top:20px; font-size:24px; margin-left: 60px;}
+#header2 h1 span.intro {display:block; font-weight:bold; margin-bottom:4px; font-size:22px;}
+#header2 h1 span.intro span {font-weight:normal; font-size:.65em;}
+#header2 p.sample {color:white; margin:0; padding:0; position:relative; top:30px; right:30px;}
+.top_item { padding-left: 30px; padding-top: 5px; float: left;}
+
+#header {height:87px; background:#0d222e scroll repeat-x 0 0; position:center; overflow:visible;}
+#header h1 {color:#FFF; position:relative; left:40px; top:20px; font-size:24px; margin-left: 60px;}
 #header h1 span.intro {display:block; font-weight:bold; margin-bottom:4px; font-size:22px;}
 #header h1 span.intro span {font-weight:normal; font-size:.65em;}
 #header p.sample {color:white; margin:0; padding:0; position:absolute; top:30px; right:30px;}

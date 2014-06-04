@@ -6,13 +6,24 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <meta content="nofollow" name="robots" />
+  <meta content="noindex" name="robots" />
+  
 
   <%= phrase_javascript(Phrase.config.auth_token) %>
 </head>
 <body>
     <div id="all">
+        <div id="header2">
+            <a class="top_item" href="https://phraseapp.com" target="_blank">PhraseApp Home</a>
+            <a class="top_item" href="https://phraseapp.com/docs" target="_blank">PhraseApp Documentation</a>
+            <a class="top_item" href="https://github.com/phrase/demo-rails-app" target="_blank">PhraseApp Demo on Github</a>
+            <a class="top_item" href="https://github.com/phrase/" target="_blank">PhraseApp on Github</a>
+        </div>
+    </div> 
+    <div id="all">
         <div id="header">
-            <h1><span class="intro"><%= t('intro') %></span> <span class="branding">My Simple Todo App</span></h1>
+            <h1><span class="intro"><%= t('intro') %></span> <span class="branding"><%= t('my_simple_todo_app') %></span></h1>
             <p class="sample"><%= t('sample') %></p>
         </div>
         <div id="content">
@@ -22,9 +33,6 @@
             <%= yield %>
         </div>
 		<div id="foot">
-      <div class="logo">
-        <a href="https://phraseapp.com" target="_blank">PhraseApp</a>
-      </div>
 			<div class="copyright">
 			<p>
 			  Running on PhraseApp and Rails with the <br />

@@ -23,6 +23,7 @@ gem 'json', '~> 1.8'
 gem 'minitest', '~> 4.7'
 gem 'psych', '~> 2.0'
 gem 'racc', '~> 1.4'
+gem 'meta-tags'
 
 group :assets do
   gem 'sass-rails', '~> 3.2'
