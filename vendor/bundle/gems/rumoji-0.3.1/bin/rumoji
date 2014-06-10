@@ -1,6 +1,0 @@
-#!/usr/bin/env ruby
-# -*- encoding: utf-8 -*-
-
-require 'rumoji'
-
-Rumoji.decode_io(STDIN, STDOUT)
