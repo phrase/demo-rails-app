@@ -14,7 +14,7 @@ h2 {font-size:20px;}
 #header h1 span.intro {display:block; font-weight:bold; margin-bottom:4px; font-size:22px;}
 #header h1 span.intro span {font-weight:normal; font-size:.65em;}
 #header p.sample {color:white; margin:0; padding:0;}
-#content { background:#FFF scroll repeat-x 0 -5px; padding:50px 35px 0 35px;}
+#content { background:#FFF scroll repeat-x 0 -5px; padding:50px 0;}
 #foot {padding:0 35px; color:#888; max-width:1200px;}
 
 #tabs {background:#fff; margin-top:20px; box-shadow: 0px 2px 5px #ccc; -moz-box-shadow: 0px 2px 5px #ccc; max-width:1200px;}
