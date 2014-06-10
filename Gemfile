@@ -14,7 +14,6 @@ gem 'simple_form', '~> 2.1'
 gem 'phrase', '0.4.25'
 gem 'puma', '~> 2.6'
 gem 'pg'
-gem 'sqlite3', '1.3.8' # 1.3.9 broken on rbx
 
 gem 'newrelic_rpm', '~> 3.6'
 gem 'unicorn', '~> 4.7'
@@ -29,4 +28,8 @@ group :assets do
   gem 'sass-rails', '~> 3.2'
   gem 'coffee-rails', '~> 3.2'
   gem 'uglifier', '~> 2.3'
+end
+
+group :development do
+  gem 'sqlite3', '1.3.8' # 1.3.9 broken on rbx
 end
