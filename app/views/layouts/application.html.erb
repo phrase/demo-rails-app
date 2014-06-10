@@ -10,6 +10,17 @@
   <meta content="nofollow" name="robots" />
   <meta content="noindex" name="robots" />
 
+  <script>
+    window.PHRASE_CONFIG = {
+      loginDialogMessage: 'Please use "demo@phraseapp.com" and password "phrase" to access this demo.',
+      autoLogin: {
+        perform: true,
+        email: "demo@phraseapp.com",
+        password: "phrase"
+      }
+    }
+  </script>
+
   <%= phrase_javascript(Phrase.config.auth_token) %>
 </head>
 <body>
