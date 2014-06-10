@@ -60,7 +60,7 @@ class TasksController < ApplicationController
 
   protected
   def secure_user_input(task_params)
-    task_params[:name] = task_params[:name].replace(CGI::escapeHTML(task_params[:name]))
+    task_params[:name] = task_params[:name].replace(CGI::escapeHTML(task_params[:name])) if task_params[:name].present?
     task_params
   end
 end

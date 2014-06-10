@@ -3,7 +3,7 @@
 		<% @count = 1%>
 		<% @lists.each do |list| %>
 		<li>
-			<a href="<%= '#' + 'tabs-' + @count.to_s %>"><%= list.name.capitalize %></a>
+			<a href="<%= '#' + 'tabs-' + @count.to_s %>"><%= list.name %></a>
 		</li>
 		<% @count += 1%>
 		<% end %>
@@ -63,7 +63,7 @@
         		<li class="finished">
         		    <%= raw auto_link( h(task.name), :html => { :target => '_blank' }) %>
         		    <p class="delete-task">
-    			        <%= link_to 'X', list_task_url(list, task), :confirm => 'Are you sure?', :method => :delete %>
+    			        <%= link_to 'X', list_task_url(list, task), :confirm => t('are_you_sure'), :method => :delete %>
     			    </p>
         		</li>
         		<% end %>
@@ -71,7 +71,7 @@
 		<% end %>
 
 		<p class="delete-list">
-		    <%= link_to t('delete_list'), list, :confirm => 'Are you sure?', :method => :delete %>
+		    <%= link_to t('delete_list'), list, :confirm => t('are_you_sure'), :method => :delete %>
 		</p>
 	</div>
 	<% @count += 1%>
