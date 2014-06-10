@@ -136,7 +136,7 @@ DEPENDENCIES
   minitest (~> 4.7)
   newrelic_rpm (~> 3.6)
   pg
-  phrase (= 0.4.25)
+  phrase
   psych (~> 2.0)
   puma (~> 2.6)
   racc (~> 1.4)
