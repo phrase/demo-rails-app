@@ -49,4 +49,3 @@ Want to know more? Check our [documentation](https://phraseapp.com/docs)!
 * [Read the PhraseApp documentation](https://phraseapp.com/docs)
 * [Get your free PhraseApp trial](https://phraseapp.com/signup)
 * [Get in touch with the engineers](http://support.phraseapp.com/)
-
