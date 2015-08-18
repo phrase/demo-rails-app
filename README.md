@@ -19,9 +19,9 @@ Next, execute the database migrations/schema setup:
 
 ### Initialize PhraseApp
 
-Use the Rails generator to add a `phrase.rb` initializer:
+Use the Rails generator to add a `phraseapp_in_context_editor.rb` initializer:
 
-  bundle exec rails generate phraseapp_in_context_editor:install --access-token=<YOUR_TOKEN> --project-id=<YOUR_PROJECT_ID>
+  bundle exec rails generate phraseapp_in_context_editor:install --access-token=<YOUR_ACCESS_TOKEN> --project-id=<YOUR_PROJECT_ID>
 
 If you don't have a [PhraseApp account](https://phraseapp.com/en/signup) yet, you can use the [demo account](https://phraseapp.com/demo) credentials to get started:
 
