@@ -1,0 +1,12 @@
+---
+de:
+  add_list: Liste hinzufügen
+  add_list_sub: Liste speichern
+  add_task: Aufgabe speichern
+  are_you_sure: Bist du sicher?
+  delete_list: Liste löschen
+  intro: Demo Anwendung
+  my_simple_todo_app: Meine Todo App
+  name: Name der Liste
+  new_task: Neue Aufgabe
+  title: PhraseApp Demo Anwendung
