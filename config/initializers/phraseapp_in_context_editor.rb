@@ -6,12 +6,12 @@ PhraseApp::InContextEditor.configure do |config|
   # in Translation Center.
   # You can find the project id in your project settings
   # page (https://phraseapp.com/projects)
-  config.project_id = ""
+  config.project_id = "00000000000000004158e0858d2fa45c"
 
   # You can create and manage access tokens in your profile settings
   # in Translation Center or via the Authorizations API
   # (http://docs.phraseapp.com/api/v2/authorizations/).
-  config.access_token = ""
+  config.access_token = "0000000000000000a45c4158e0858dd1"
 
   # Configure an array of key names that should not be handled
   # by the In-Context-Editor.
