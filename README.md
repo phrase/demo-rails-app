@@ -11,29 +11,27 @@ Follow these easy steps to install and start the app:
 First, install the gems required by the application:
 
     bundle
-    
+
 Next, execute the database migrations/schema setup:
 
 	bundle exec rake db:setup
 
-    
+
 ### Initialize PhraseApp
 
-Use the Rails generator to add a `phrase.rb` initializer:
+Use the Rails generator to add a `phraseapp_in_context_editor.rb` initializer:
 
-    bundle exec rails generate phrase:install --auth-token=<YOUR-SECRET>
-    
+  bundle exec rails generate phraseapp_in_context_editor:install --access-token=<YOUR_ACCESS_TOKEN> --project-id=<YOUR_PROJECT_ID>
+
 If you don't have a [PhraseApp account](https://phraseapp.com/en/signup) yet, you can use the [demo account](https://phraseapp.com/demo) credentials to get started:
-
-	bundle exec rails generate phrase:install --auth-token=e15bc7d21c980245ab6c938fe6bb56e8
 
 ### Start the app
 
 Start the Rails app to see the In-Context-Editor added to the To-Do application. You're ready to localize your app:
 
     bundle exec rails server
-    
-You can find your app now by pointing your browser to [http://localhost:3000](http://localhost:3000). If everything worked you can log into In-Context Editor with your PhraseApp user account or the demo login credentials: 
+
+You can find your app now by pointing your browser to [http://localhost:3000](http://localhost:3000). If everything worked you can log into In-Context Editor with your PhraseApp user account or the demo login credentials:
 
 	User: demo@phraseapp.com
 	Password: phrase

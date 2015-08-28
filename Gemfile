@@ -11,7 +11,7 @@ gem 'ey_config', '0.0.6'
 gem 'jquery-rails', '~> 3.0'
 gem 'rails_autolink', '~> 1.1'
 gem 'simple_form', '~> 2.1'
-gem 'phrase'
+gem 'phraseapp-in-context-editor-ruby'
 gem 'puma', '~> 2.6'
 gem 'pg'
 
@@ -23,6 +23,7 @@ gem 'minitest', '~> 4.7'
 gem 'psych', '~> 2.0'
 gem 'racc', '~> 1.4'
 gem 'meta-tags'
+gem 'test-unit'
 
 group :assets do
   gem 'sass-rails', '~> 3.2'
@@ -31,5 +32,5 @@ group :assets do
 end
 
 group :development do
-  gem 'sqlite3', '1.3.8' # 1.3.9 broken on rbx
+  gem 'sqlite3', '1.3.10' # 1.3.9 broken on rbx
 end
