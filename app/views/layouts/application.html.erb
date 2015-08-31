@@ -10,7 +10,23 @@
   <meta content="nofollow" name="robots" />
   <meta content="noindex" name="robots" />
 
-  <%= phraseapp_in_context_editor_js %>
+  <script>
+  window.PHRASEAPP_CONFIG = {
+        projectId: '00000000000000004158e0858d2fa45c',
+        apiBaseUrl: 'https://api.phraseapp.com/api/v2',
+        loginDialogMessage: 'Please use "demo@phraseapp.com" and password "phrase" to access this demo.',
+        autoLogin: {
+          perform: true,
+          email: "demo@phraseapp.com",
+          password: "phrase"
+        }
+      };
+  (function() {
+    var phraseapp = document.createElement('script'); phraseapp.type = 'text/javascript'; phraseapp.async = true;
+    phraseapp.src = ['https://', 'phraseapp.com/assets/in-context-editor/2.0/app.js?', new Date().getTime()].join('');
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(phraseapp, s);
+  })();
+  </script>
 
 </head>
 <body>
