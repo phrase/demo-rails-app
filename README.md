@@ -40,10 +40,10 @@ You can find your app now by pointing your browser to [http://localhost:3000](ht
 
 In-Context-Editor is a great way to start translating your application. All translations you enter will be stored directly in [Translation Center](https://phraseapp.com/en/account/login), the backend software for all PhraseApp projects. Log in with your demo credentials to see all possibilities for your new translation management: [Translation Center](https://phraseapp.com/en/account/login)
 
-Want to know more? Check our [documentation](https://phraseapp.com/docs)!
+Want to know more? Check our [documentation](https://help.phraseapp.com/)!
 
 ## More information
 
-* [Read the PhraseApp documentation](https://phraseapp.com/docs)
+* [Read the PhraseApp documentation](https://help.phraseapp.com/)
 * [Get your free PhraseApp trial](https://phraseapp.com/signup)
 * [Get in touch with the engineers](http://support.phraseapp.com/)
