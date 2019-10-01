@@ -7,6 +7,6 @@ task :reset_application => :environment do
   id = List.all.last.id
   Task.create(:name => "", :list_id => id)
   Task.create(:name => "Build a great web application", :list_id => id)
-  Task.create(:name => "Add PhraseApp to my application", :list_id => id)
-  Task.create(:name => "Translate application with PhraseApp to reach more people", :list_id => id)
+  Task.create(:name => "Add Phrase to my application", :list_id => id)
+  Task.create(:name => "Translate application with Phrase to reach more people", :list_id => id)
 end
