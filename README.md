@@ -38,7 +38,7 @@ You can find your app now by pointing your browser to [http://localhost:3000](ht
 
 ## So, what next?
 
-In-Context-Editor is a great way to start translating your application. All translations you enter will be stored directly in [Translation Center](https://phrase.com/en/account/login), the backend software for all Phrase projects. Log in with your demo credentials to see all possibilities for your new translation management: [Translation Center](https://phrase.com/en/account/login)
+In-Context-Editor is a great way to start translating your application. All translations you enter will be stored directly in [Translation Center](https://app.phrase.com/), the backend software for all Phrase projects. Log in with your demo credentials to see all possibilities for your new translation management: [Translation Center](https://app.phrase.com/)
 
 Want to know more? Check our [documentation](https://help.phrase.com/)!
 
