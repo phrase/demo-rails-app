@@ -46,4 +46,4 @@ Want to know more? Check our [documentation](https://help.phrase.com/)!
 
 * [Read the Phrase documentation](https://help.phrase.com/)
 * [Get your free Phrase trial](https://phrase.com/signup)
-* [Get in touch with the engineers](http://support.phrase.com/)
+* [Get in touch](https://phrase.com/contact/)
