@@ -16,7 +16,7 @@ gem 'puma', '~> 3.12'
 gem 'pg'
 
 gem 'newrelic_rpm', '~> 3.6'
-gem 'unicorn', '~> 4.7'
+gem 'unicorn', '~> 5.5'
 
 gem 'json', '~> 1.8'
 gem 'minitest', '~> 4.7'
