@@ -28,7 +28,7 @@ gem 'test-unit'
 group :assets do
   gem 'sass-rails', '~> 3.2'
   gem 'coffee-rails', '~> 3.2'
-  gem 'uglifier', '~> 2.3'
+  gem 'uglifier', '~> 4.2'
 end
 
 group :development do
