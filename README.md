@@ -23,7 +23,7 @@ Use the Rails generator to add a `phraseapp_in_context_editor.rb` initializer:
 
   bundle exec rails generate phraseapp_in_context_editor:install --access-token=<YOUR_ACCESS_TOKEN> --project-id=<YOUR_PROJECT_ID>
 
-If you don't have a [Phrase account](https://phrase.com/en/signup) yet, you can use the [demo account](https://phrase.com/demo) credentials to get started:
+If you don't have a [Phrase account](https://app.phrase.com/signup) yet, you can use the [demo account](https://phrase.com/demo/) credentials to get started:
 
 ### Start the app
 
@@ -38,12 +38,12 @@ You can find your app now by pointing your browser to [http://localhost:3000](ht
 
 ## So, what next?
 
-In-Context-Editor is a great way to start translating your application. All translations you enter will be stored directly in [Translation Center](https://app.phrase.com/), the backend software for all Phrase projects. Log in with your demo credentials to see all possibilities for your new translation management: [Translation Center](https://app.phrase.com/)
+In-Context-Editor is a great way to start translating your application. All translations you enter will be stored directly in [Translation Center](https://app.phrase.com/account/login), the backend software for all Phrase projects. Log in with your demo credentials to see all possibilities for your new translation management: [Translation Center](https://app.phrase.com/account/login)
 
-Want to know more? Check our [documentation](https://help.phrase.com/)!
+Want to know more? Check our [documentation](https://help.phrase.com/help)!
 
 ## More information
 
-* [Read the Phrase documentation](https://help.phrase.com/)
-* [Get your free Phrase trial](https://phrase.com/signup)
+* [Read the Phrase documentation](https://help.phrase.com/help)
+* [Get your free Phrase trial](https://app.phrase.com/signup)
 * [Get in touch](https://phrase.com/contact/)
