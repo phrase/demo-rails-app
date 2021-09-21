@@ -47,3 +47,7 @@ Want to know more? Check our [documentation](https://help.phrase.com/help)!
 * [Read the Phrase documentation](https://help.phrase.com/help)
 * [Get your free Phrase trial](https://app.phrase.com/signup)
 * [Get in touch](https://phrase.com/contact/)
+
+## Get help / support
+
+Please contact [support@phrase.com](mailto:support@phrase.com?subject=[GitHub]%20) and we can take more direct action toward finding a solution.
