@@ -12,7 +12,7 @@ gem 'jquery-rails', '~> 3.0'
 gem 'rails_autolink', '~> 1.1'
 gem 'simple_form', '~> 2.1'
 gem 'phraseapp-in-context-editor-ruby'
-gem 'puma', '~> 4.3'
+gem 'puma', '~> 5.6'
 gem 'pg'
 
 gem 'newrelic_rpm', '~> 3.6'
