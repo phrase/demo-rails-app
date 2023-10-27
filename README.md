@@ -1,4 +1,10 @@
-# Sample application with Phrase integration
+# Sample Ruby on Rails application with Phrase integration (DEPRECATED)
+
+![maintenance-status](https://img.shields.io/badge/maintenance-deprecated-red.svg)
+
+> This repository for the demo app of Phrase Strings In-Context Editor with `phraseapp-in-context-editor-ruby` has been deprecated and is no longer maintained. Please refer to the [phraseapp-in-context-editor-ruby](https://github.com/phrase/phraseapp-in-context-editor-ruby) repository, where the demo has been moved to and will be maintained. 
+ 
+<hr />
 
 Simple todo app to show how to use with [Phrase In-Context-Editor](https://phrase.com).
 
